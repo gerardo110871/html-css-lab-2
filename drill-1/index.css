@@ -1,0 +1,37 @@
+.banner {
+    display: flex;
+    position: fixed;
+    height: 15%;
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    z-index: 1000;
+}
+
+.left-side {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: rgb(231, 231, 231)
+}
+
+.right-side {
+    display: flex;
+    position: fixed;
+    right: 0;
+    height: 100%;
+    width: 15%;
+    background-color: rgb(231, 231, 231)
+}
+.right-side, .left-side {
+    z-index: 50;
+}
+
+.footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    height: 8%;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+}
